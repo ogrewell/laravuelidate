@@ -38,6 +38,15 @@ var _default = {
 
       return;
     };
+
+    errors.every = function () {
+      var values = Object.values(errors.all);
+      var arrays = values.map(function (item) {
+        return Object.values(item);
+      });
+      var merged = [].concat.apply([], arrays);
+      return merged;
+    };
   }
 };
 exports["default"] = _default;
