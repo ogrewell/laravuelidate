@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@ogrewell/laravuelidate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Laravel Validation in Vue+Vuex Component",
   "main": "src/index.js",
   "scripts": {
