@@ -1,11 +1,12 @@
 export default {
-    install(Vue, { store, errName }) {
+    install(Vue, { store, errName, isDefault }) {
         let prototype = Vue.prototype;
         let errors;
-        if (errName != undefined) {
-            errors = prototype[errName] = store.state.errors
+        let state = isDefault ? store.default.state.errors : store.state.errors
+        if (errName) {
+            errors = prototype[errName] = state
         } else {
-            errors = prototype.$errors = store.state.errors
+            errors = prototype.$errors = state
         }
         errors.has = (field) => {
             if (errors.all[field]) {
