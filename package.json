@@ -1,0 +1,33 @@
+{
+  "private": false,
+  "name": "@ogrewell/laravuelidate",
+  "version": "1.0.2",
+  "description": "Laravel Validation in Vue+Vuex Component",
+  "main": "src/index.js",
+  "scripts": {
+    "dev:build": "./node_modules/.bin/babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogrewell/laravuelidate.git"
+  },
+  "keywords": [
+    "Laravel",
+    "vuejs",
+    "vue",
+    "laravue",
+    "laravelVueJs"
+  ],
+  "author": "Ogrewell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ogrewell/laravuelidate/issues"
+  },
+  "homepage": "https://github.com/ogrewell/laravuelidate#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0",
+    "@babel/preset-env": "^7.4.3"
+  }
+}
