@@ -3,7 +3,7 @@
   "name": "@ogrewell/laravuelidate",
   "version": "1.0.3",
   "description": "Laravel Validation in Vue+Vuex Component",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev:build": "./node_modules/.bin/babel src --out-dir dist"
   },
